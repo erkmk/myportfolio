@@ -376,7 +376,6 @@
             <div class="container">
                 <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
                     <p>My Technical Skills</p>
-                    <!-- <h2>My Excellent Portfolio</h2> -->
                 </div>
                 <div class="row">
                     <div class="col-12">
@@ -392,73 +391,51 @@
                     <div class="col-lg-2 col-md-4 col-sm-6 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.0s">
                         <div class="portfolio-wrap">
                             <div class="portfolio-img">
-                                <img src="img/python.jpg" alt="Image">
+                                <img src="img/portfolio-1.jpg" alt="Python Image">
                             </div>
                             <div class="portfolio-text">
                                 <h3>Python</h3>
-                                <!-- <a class="btn" href="img/portfolio-1.jpg" data-lightbox="portfolio">+</a> -->
-                                
+                                <button class="btn" onclick="replaceWithText(this, 'Python is a versatile programming language used for web development, AI, and data analysis.')">+</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-sm-6 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="portfolio-wrap">
                             <div class="portfolio-img">
-                                <img src="img/js_9472532-removebg-preview (1).jpg" alt="Image">
+                                <img src="img/portfolio-2.jpg" alt="JavaScript Image">
                             </div>
                             <div class="portfolio-text">
-                                <h3>Javascript</h3>
-                                <!-- <a class="btn" href="img/portfolio-2.jpg" data-lightbox="portfolio">+</a> -->
+                                <h3>JavaScript</h3>
+                                <button class="btn" onclick="replaceWithText(this, 'JavaScript is essential for web development and creating interactive user experiences.')">+</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-sm-6 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="portfolio-wrap">
                             <div class="portfolio-img">
-                                <img src="img/ng.jpg" alt="Image">
+                                <img src="img/portfolio-3.jpg" alt="Angular Image">
                             </div>
                             <div class="portfolio-text">
                                 <h3>Angular</h3>
-                                <!-- <a class="btn" href="img/portfolio-3.jpg" data-lightbox="portfolio">+</a> -->
+                                <button class="btn" onclick="replaceWithText(this, 'Angular is a popular web framework used for building dynamic single-page applications.')">+</button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-4 col-sm-6 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="portfolio-wrap">
-                            <div class="portfolio-img">
-                                <img src="img/django-removebg-preview (1).jpg" alt="Image">
-                            </div>
-                            <div class="portfolio-text">
-                                <h3>Django</h3>
-                                <!-- <a class="btn" href="img/portfolio-4.jpg" data-lightbox="portfolio">+</a> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-sm-6 portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="portfolio-wrap">
-                            <div class="portfolio-img">
-                                <img src="img/excel-removebg-preview (1).jpg" alt="Image">
-                            </div>
-                            <div class="portfolio-text">
-                                <h3>Excel</h3>
-                                <!-- <a class="btn" href="img/portfolio-5.jpg" data-lightbox="portfolio">+</a> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-sm-6 portfolio-item filter-3 wow fadeInUp" data-wow-delay="1s">
-                        <div class="portfolio-wrap">
-                            <div class="portfolio-img">
-                                <img src="img/power bi-removebg-preview (1).jpg" alt="Image">
-                            </div>
-                            <div class="portfolio-text">
-                                <h3>Power BI</h3>
-                                <!-- <a class="btn" href="img/portfolio-6.jpg" data-lightbox="portfolio">+</a> -->
-                            </div>
-                        </div>
-                    </div>
+                    <!-- Add more portfolio items with unique descriptions as needed -->
                 </div>
             </div>
         </div>
+        
+        <script>
+            function replaceWithText(button, description) {
+                // Find the parent div with class 'portfolio-img' for the clicked button
+                var imgDiv = button.closest('.portfolio-wrap').querySelector('.portfolio-img');
+                
+                // Replace the image with a paragraph containing the unique description
+                imgDiv.innerHTML = `<p>${description}</p>`;
+            }
+        </script>
+        
         
         <!-- Portfolio End -->
         

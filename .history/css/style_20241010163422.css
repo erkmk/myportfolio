@@ -884,7 +884,7 @@ a:focus {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
-    background: rgba(0, 0, 0, 0.425); 
+    background: rgba(0, 0, 0, 0.274); 
     width: 80%;
     text-align: center;
     padding: 20px;
@@ -902,7 +902,7 @@ a:focus {
 }
 
 .portfolio .portfolio-text h3 {
-    font-size: 1.3vw;
+    font-size: 1.5vw;
     color: white;
     }
 
