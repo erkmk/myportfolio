@@ -8,10 +8,10 @@ body {
 }
 
 h1,
-h2, 
-h3, 
+h2,
+h3,
 h4,
-h5, 
+h5,
 h6 {
     color: #414141;
 }
@@ -44,7 +44,7 @@ a:focus {
     font-weight: 600;
     letter-spacing: 1px;
     color: #ffffff;
-    background:#5f5f5f;
+    background: #5f5f5f;
     border: 2px solid transparent;
     border-radius: 0;
     box-shadow: inset 0 0 0 50px #5f5f5f;
@@ -57,7 +57,7 @@ a:focus {
     color: #5f5f5f;
     background: transparent;
     box-shadow: inset 0 0 0 0 #5f5f5f;
-    border-color:  #5f5f5f;
+    border-color: #5f5f5f;
 }
 
 #loader {
@@ -98,13 +98,23 @@ a:focus {
 }
 
 @-webkit-keyframes spin {
-    0% { -webkit-transform: rotate(0deg); }
-    100% { -webkit-transform: rotate(360deg); }
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
 }
 
 @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .back-to-top {
@@ -153,7 +163,7 @@ a:focus {
     font-weight: 700;
     letter-spacing: 2px;
     transition: .5s;
-    
+
 }
 
 .navbar .navbar-brand img {
@@ -177,16 +187,16 @@ a:focus {
         border-bottom: 1px dashed rgba(256, 256, 256, .2);
         z-index: 9;
     }
-    
+
     .navbar.nav-sticky {
         padding: 10px 60px;
         background: #ffffff !important;
     }
-    
+
     .navbar .navbar-brand {
         color: #ffffff;
     }
-    
+
     .navbar.nav-sticky .navbar-brand {
         /* color: #EF233C; */
         color: #313131;
@@ -199,7 +209,7 @@ a:focus {
         font-size: 15px;
         font-weight: 500;
     }
-    
+
     .navbar-light.nav-sticky .navbar-nav .nav-link,
     .navbar-light.nav-sticky .navbar-nav .nav-link:focus {
         color: #414141;
@@ -209,7 +219,7 @@ a:focus {
     .navbar-light .navbar-nav .nav-link.active {
         color: #111111;
     }
-    
+
     .navbar-light.nav-sticky .navbar-nav .nav-link:hover,
     .navbar-light.nav-sticky .navbar-nav .nav-link.active {
         /* color: #EF233C; */
@@ -217,24 +227,24 @@ a:focus {
     }
 }
 
-@media (max-width: 991.98px) {   
+@media (max-width: 991.98px) {
     .navbar {
         padding: 15px;
         background: #ffffff !important;
     }
-    
+
     .navbar .navbar-brand {
         color: #EF233C;
     }
-    
+
     .navbar .navbar-nav {
         margin-top: 15px;
     }
-    
+
     .navbar a.nav-link {
         padding: 5px;
     }
-    
+
     .navbar .dropdown-menu {
         box-shadow: none;
     }
@@ -273,7 +283,7 @@ a:focus {
 }
 
 .hero .hero-image img {
-     /* overflow: hidden; */
+    /* overflow: hidden; */
     /* height: 700px; */
     width: 500px;
     margin-bottom: -128px;
@@ -324,7 +334,7 @@ a:focus {
 
 .hero .hero-btn .btn {
     margin-top: 35px;
-    color:#313131;
+    color: #313131;
     background: #ffffff;
     box-shadow: inset 0 0 0 50px #ffffff;
 }
@@ -344,24 +354,24 @@ a:focus {
     .hero {
         padding-top: 60px;
     }
-    
+
     .hero .hero-content {
         padding: 0 15px;
     }
-    
+
     .hero .hero-text p {
         font-size: 20px;
     }
-    
+
     .hero .hero-text h1 {
         font-size: 45px;
     }
-    
+
     .hero .hero-text h2 {
         font-size: 25px;
         height: 25px;
     }
-    
+
     .hero .hero-btn .btn {
         padding: 12px 30px;
         letter-spacing: 1px;
@@ -373,27 +383,27 @@ a:focus {
         padding-top: 60px;
         padding-bottom: 60px;
     }
-    
+
     .hero,
     .hero .hero-text,
     .hero .hero-btn {
         width: 100%;
         text-align: center;
     }
-    
+
     .hero .hero-text p {
         font-size: 18px;
     }
-    
+
     .hero .hero-text h1 {
         font-size: 35px;
     }
-    
+
     .hero .hero-text h2 {
         font-size: 22px;
         height: 22px;
     }
-    
+
     .hero .hero-btn .btn {
         padding: 10px 15px;
         letter-spacing: 1px;
@@ -404,16 +414,16 @@ a:focus {
     .hero .hero-text p {
         font-size: 16px;
     }
-    
+
     .hero .hero-text h1 {
         font-size: 30px;
     }
-    
+
     .hero .hero-text h2 {
         font-size: 18px;
         height: 18px;
     }
-    
+
     .hero .hero-btn .btn {
         padding: 8px 10px;
         letter-spacing: 0;
@@ -542,7 +552,7 @@ a:focus {
 
 .about .progress .progress-bar {
     width: 0px;
-    background:#5f5f5f;
+    background: #5f5f5f;
     border-radius: 10px;
     transition: 2s;
 }
@@ -575,7 +585,7 @@ a:focus {
     content: '';
     position: absolute;
     width: 2px;
-    background:#313131;
+    background: #313131;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -617,20 +627,20 @@ a:focus {
 }
 
 .experience .timeline .timeline-item::before {
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 0;
-  top: 46px;
-  right: 10px;
-  z-index: 1;
-  border: 10px solid;
-  border-color: transparent transparent transparent #dddddd;
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 46px;
+    right: 10px;
+    z-index: 1;
+    border: 10px solid;
+    border-color: transparent transparent transparent #dddddd;
 }
 
 .experience .timeline .timeline-item.right::before {
-  left: 10px;
-  border-color: transparent #dddddd transparent transparent;
+    left: 10px;
+    border-color: transparent #dddddd transparent transparent;
 }
 
 .experience .timeline .timeline-date {
@@ -695,27 +705,27 @@ a:focus {
         width: 100%;
         padding-left: 38px;
     }
-    
+
     .experience .timeline .timeline-item.left {
         padding-right: 0;
     }
-    
+
     .experience .timeline .timeline-item.right {
         left: 0%;
         padding-left: 38px;
     }
 
-    .experience .timeline .timeline-item.left::after, 
+    .experience .timeline .timeline-item.left::after,
     .experience .timeline .timeline-item.right::after {
         left: 0;
     }
-    
+
     .experience .timeline .timeline-item.left::before,
     .experience .timeline .timeline-item.right::before {
         left: 18px;
         border-color: transparent #dddddd transparent transparent;
     }
-    
+
     .experience .timeline .timeline-item.left .timeline-date,
     .experience .timeline .timeline-item.right .timeline-date {
         position: relative;
@@ -725,7 +735,7 @@ a:focus {
         text-align: left;
         margin-bottom: 10px;
     }
-    
+
     .experience .timeline .timeline-item.left .timeline-text,
     .experience .timeline .timeline-item.right .timeline-text {
         border-right: none;
@@ -807,7 +817,7 @@ a:focus {
         font-size: 16px;
         margin-bottom: 5px;
     }
-    
+
     .service .service-text p {
         font-size: 14px;
     }
@@ -819,7 +829,7 @@ a:focus {
 /*******************************/
 .portfolio {
     position: relative;
-    padding: 45px 0 15px 0;
+    padding: 3rem 0 3rem 0;
 }
 
 .portfolio #portfolio-filter {
@@ -853,10 +863,10 @@ a:focus {
     border-color: #5f5f5f;
 }
 
-.portfolio .portfolio-item {
+/* .portfolio .portfolio-item {
     position: relative;
     overflow: hidden;
-}
+} */
 
 .portfolio .portfolio-wrap {
     position: relative;
@@ -871,46 +881,164 @@ a:focus {
 }
 
 .portfolio .portfolio-img img {
-    width: 100%; 
-    height: 50%; 
+    width: 100%;
+    height: 50%;
     object-fit: cover;
-    transform: scale(1.1); 
+    transform: scale(1.1);
     transition: transform .5s ease-in-out;
 }
 
+/* .portfolio .container {
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 3rem;
+} */
+
 .portfolio .portfolio-text {
-    position: absolute; 
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
-    background: rgba(0, 0, 0, 0.425); 
+    background: rgba(0, 0, 0, 0.425);
     width: 80%;
     text-align: center;
     padding: 20px;
-    opacity: 0; 
+    opacity: 0;
     transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
-.portfolio .portfolio-item:hover .portfolio-img img {
-    transform: scale(1.0); 
-}
+/* .portfolio .portfolio-item:hover .portfolio-img img {
+    transform: scale(1.0);
+} */
 
-.portfolio .portfolio-item:hover .portfolio-text {
-    opacity: 1; 
-    transform: translate(-50%, -50%) scale(1.1); 
-}
+/* .portfolio .portfolio-item:hover .portfolio-text {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.1);
+} */
 
 .portfolio .portfolio-text h3 {
-    font-size: 1.3vw;
+    font-size: 1.25vw;
     color: white;
-    }
-
-.portfolio .portfolio-text a.btn {
-    display: none; 
 }
 
+.portfolio .portfolio-text a.btn {
+    display: none;
+}
 
+.skill-section {
+    position: relative;
+    /* margin: 100px 0; */
+}
+
+.skills-container {
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 6rem 3rem;
+    color: #fff;
+}
+
+.skill-card {
+    position: relative;
+}
+
+.skill-img {
+    display: block;
+    margin: auto;
+    height: 110px;
+    width: 123px;
+    opacity: 0.4;
+}
+.skill-img:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+/* .skill-name {
+    font-size: 28px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 30px 0 20px;
+} */
+
+.skill-info {
+    text-align: center;
+    opacity: 0.5;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.skill-level {
+    position: absolute;
+    top: 45px;
+    right: -16px;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border-radius: 50%;
+    border: 10px solid;
+    font-weight: 550;
+}
+
+.skill-card:nth-child(1) .skill-level {
+    background: #ff4f4f28;
+    border-color: #ff4f4f;
+    color: #ff4f4f;
+}
+
+.skill-card:nth-child(2) .skill-level {
+    background: #4fa0ff28;
+    border-color: #306998;
+    color: #306998;
+}
+
+.skill-card:nth-child(3) .skill-level {
+    background: #ffed4f28;
+    border-color: #595959;
+    color: #595959;
+}
+
+.skill-card:nth-child(4) .skill-level {
+    background: #52ff4f28;
+    border-color: #092e20;
+    color: #092e20;
+}
+
+.skill-card:nth-child(5) .skill-level {
+    background: #4fdfff28;
+    border-color: #ff4f4f;
+    color: #ff4f4f;
+}
+.skill-card:nth-child(6) .skill-level {
+    background: #4fdfff28;
+    border-color: #0db7ed;
+    color: #0db7ed;
+}
+.skill-card:nth-child(7) .skill-level {
+    background: #4fdfff28;
+    border-color: #00758f;
+    color: #00758f;
+}
+.skill-card:nth-child(8) .skill-level {
+    background: #4fdfff28;
+    border-color: #358ef1;
+    color: #358ef1;
+}
+.skill-card:nth-child(9) .skill-level {
+    background: #4fdfff28;
+    border-color: #F0DB4F;
+    color: #F0DB4F;
+}
+.skill-card:nth-child(10) .skill-level {
+    background: #4fdfff28;
+    border-color: #30C3CD;
+    color: #30C3CD;
+}
 
 /*******************************/
 /********* Banner CSS **********/
@@ -1095,7 +1223,7 @@ a:focus {
 .team {
     position: relative;
     width: 100%;
-    padding: 45px 0 15px 0;
+    padding: 8rem 0 2rem 0;
 }
 
 .team .team-item {
@@ -1192,7 +1320,7 @@ a:focus {
     .team .team-text {
         padding: 0 15px;
     }
-    
+
     .team .team-text h2 {
         font-size: 16px;
         margin-bottom: 0;
@@ -1217,7 +1345,7 @@ a:focus {
     position: relative;
     margin: 45px 0;
     padding: 90px 0;
-    background:#5f5f5f;
+    background: #5f5f5f;
 }
 
 .testimonial .container {
@@ -1307,7 +1435,7 @@ a:focus {
     position: relative;
     width: 100%;
     margin: 45px 0;
-    background:#304352;
+    background: #304352;
 }
 
 .contact .container-fluid {
@@ -1378,7 +1506,7 @@ a:focus {
     .contact .container-fluid {
         background: none;
     }
-    
+
     .contact .contact-form {
         padding: 90px 0;
     }
@@ -1604,21 +1732,21 @@ a:focus {
 --------------------------------------------------------------*/
 .clients {
     padding: 12px 0;
-  }
-  
-  .clients .swiper {
+}
+
+.clients .swiper {
     padding: 10px 0;
-  }
-  
-  .clients .swiper-wrapper {
+}
+
+.clients .swiper-wrapper {
     height: auto;
-  }
-  
-  .clients .swiper-slide img {
+}
+
+.clients .swiper-slide img {
     transition: 0.3s;
     padding: 0 10px;
-  }
-  
-  .clients .swiper-slide img:hover {
+}
+
+.clients .swiper-slide img:hover {
     transform: scale(1.1);
-  }
+}
